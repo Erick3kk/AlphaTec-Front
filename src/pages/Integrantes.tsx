@@ -9,7 +9,7 @@ const IntegrantesHC: React.FC = () => {
       turma: "1TDSPV",
       githubUrl: "https://github.com/MATHEUSN06",
       linkedinUrl: "https://www.linkedin.com/in/matheus-nascimento-corrégio-39a344354/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", 
-      fotoUrl: "https://media.discordapp.net/attachments/593926799373631528/1441833057412710510/MatheusFoto.jpg?ex=69233b2c&is=6921e9ac&hm=ca7bde4e27bdf46b3ee164e8a372aa12c5bd81d9972a066a9d09e9dd51b715b2&=&format=webp&width=451&height=802"
+      fotoUrl: "https://media.discordapp.net/attachments/593926799373631528/1441833057412710510/MatheusFoto.jpg?ex=69248cac&is=69233b2c&hm=44afe6f55f054d1c9452f11256428d1ae3ea182c66466fc8081a6a127a96cb7b&=&format=webp&width=451&height=802"
     },
     {
       nome: "Erick Gama",
@@ -17,7 +17,7 @@ const IntegrantesHC: React.FC = () => {
       turma: "1TDSPV",
       githubUrl: "https://github.com/Erick3kk",
       linkedinUrl: "https://www.linkedin.com/in/erick-gama-0598b9325", 
-      fotoUrl: "https://media.discordapp.net/attachments/593926799373631528/1441833057878282321/ErickFoto.jpg?ex=69233b2c&is=6921e9ac&hm=4c1055cae8ca2ca862121cae6dbe9428cf17188f7b5617227d2727fa12e863b7&=&format=webp&width=601&height=802"
+      fotoUrl: "https://media.discordapp.net/attachments/593926799373631528/1441833057878282321/ErickFoto.jpg?ex=69248cac&is=69233b2c&hm=02875aab485197b959c5012b45070ba08b4e4a56d9cb544359bf6664bb9d06c0&=&format=webp&width=601&height=802"
     },
     {
       nome: "Bruno Jacob",
@@ -25,7 +25,7 @@ const IntegrantesHC: React.FC = () => {
       turma: "1TDSPV",
       githubUrl: "https://github.com/brunopfnm",
       linkedinUrl: "https://www.linkedin.com/in/bruno-jacob-35a57635a", 
-      fotoUrl: "https://cdn.discordapp.com/attachments/593926799373631528/1441833058226405557/BrunoFoto.jpg?ex=69233b2d&is=6921e9ad&hm=526ccef96aded01390feddb9e768f8542712feeb043fddb82a7bbcb3392fd3ae&"
+      fotoUrl: "https://media.discordapp.net/attachments/593926799373631528/1441833058226405557/BrunoFoto.jpg?ex=69248cad&is=69233b2d&hm=07e51e0b40b0e1793ab23f3a1de297c59c200dcd45cc009a5e9dfb5e9b49b734&=&format=webp&width=601&height=802"
     },
   ];
 
