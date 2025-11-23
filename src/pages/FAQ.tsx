@@ -38,7 +38,7 @@ const FAQ = () => {
     <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 py-16 px-6">
       <div className="max-w-4xl mx-auto">
 
-        {/* Cabeçalho */}
+        {}
         <div className="text-center mb-16">
           <h1 className="text-7xl font-extrabold text-emerald-800 mb-6">
             Perguntas Frequentes
@@ -48,13 +48,13 @@ const FAQ = () => {
           </p>
         </div>
 
-        {/* Lista de FAQs */}
+        {}
         <div className="space-y-8">
           {faqs.map((faq, index) => (
             <details
               key={index}
               className="bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300 hover:shadow-2xl"
-              open={index < 2} // abre as duas primeiras por padrão
+              open={index < 2} 
             >
               <summary className="px-8 py-6 text-xl font-bold text-emerald-800 cursor-pointer hover:bg-emerald-50 transition-colors">
                 {faq.pergunta}
@@ -66,7 +66,7 @@ const FAQ = () => {
           ))}
         </div>
 
-        {/* Botão Voltar */}
+        {}
         <div className="text-center mt-20">
           <button
             onClick={() => navigate(-1)}
@@ -76,10 +76,10 @@ const FAQ = () => {
           </button>
         </div>
 
-        {/* Rodapé fofo */}
+        {}
         <div className="text-center mt-20 text-gray-600">
           <p className="text-lg">
-            Dúvidas? Fale com o professor ou com o dev mais foda da sala
+            Dúvidas? Entre em contato conosco
           </p>
         </div>
       </div>
