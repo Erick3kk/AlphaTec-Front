@@ -151,4 +151,4 @@ alphatec_front/
 
 **Link do vídeo no YouTube:** [https://www.youtube.com/watch?v=6cdNeMxpNaQ](https://www.youtube.com/watch?v=6cdNeMxpNaQ)
 
-**Link do Vercel:** []()
+**Link do Vercel:** [https://alpha-tec-front.vercel.app](https://alpha-tec-front.vercel.app)
