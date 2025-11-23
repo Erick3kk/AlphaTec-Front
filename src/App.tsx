@@ -12,7 +12,7 @@ import Integrantes from './pages/Integrantes';
 import CursosDisponiveis from './pages/CursosDisponiveis';
 import Auth from './pages/Auth';          
 import PerfilAluno from './pages/PerfilAluno';
-import CursoDetalhe from './pages/CursoDetalhe';
+import CursoDetalhe from './pages/CursoDetalhes';
 import QuizPage from './pages/QuizPage';
 import FAQ from './pages/FAQ';
 
