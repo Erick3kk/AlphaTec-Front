@@ -60,15 +60,15 @@ npm run dev
 
 ## Como Usar
 
-Acesse a página inicial e leia o resumo da proposta
-Clique em um dos quatro temas disponíveis
-Leia a explicação introdutória
-Se interessar em um deles, realize o login/cadastro e entre em sua conta
-Adicione o curso de interesses
-Va para o seu perfil, clique em "Acessar Curso" e leia a explicacao
-Responda ao quiz interativo (múltipla escolha com feedback imediato)
-Veja sua pontuação final e mensagens de reforço do aprendizado
-Repita com outros temas quando quiser!
+- Acesse a página inicial e leia o resumo da proposta
+- Clique em um dos quatro temas disponíveis
+- Leia a explicação introdutória
+- Se interessar em um deles, realize o login/cadastro e entre em sua conta
+- Adicione o curso de interesses
+- Va para o seu perfil, clique em "Acessar Curso" e leia a explicacao
+- Responda ao quiz interativo (múltipla escolha com feedback imediato)
+- Veja sua pontuação final e mensagens de reforço do aprendizado
+- Repita com outros temas quando quiser!
 
 ## Estrutura de Pastas
 
