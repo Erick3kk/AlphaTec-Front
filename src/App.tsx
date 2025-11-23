@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Contato from './pages/Contato';
+import Sustentabilidade from './pages/Sustentabilidade';
+import EducacaoFinanceira from './pages/EducacaoFinanceira';
+import Biodiversidade from './pages/Biodiversidade';
+import SaudeMental from './pages/SaudeMental';
+import NotFound from './pages/NotFound';
+import Integrantes from './pages/Integrantes';
+import CursosDisponiveis from './pages/CursosDisponiveis';
+import Auth from './pages/Auth';          
+import PerfilAluno from './pages/PerfilAluno';
+import CursoDetalhe from './pages/CursoDetalhe';
+import QuizPage from './pages/QuizPage';
+import FAQ from './pages/FAQ';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="/integrantes" element={<Integrantes />} />
+          <Route path="/temas/sustentabilidade" element={<Sustentabilidade />} />
+          <Route path="/temas/educacao-financeira" element={<EducacaoFinanceira />} />
+          <Route path="/temas/biodiversidade" element={<Biodiversidade />} />
+          <Route path="/temas/saude-mental" element={<SaudeMental />} />
+          <Route path="/login" element={<Auth />} />           {/* ← Auth aqui */}
+          <Route path="/cursos" element={<CursosDisponiveis />} />
+          <Route path="/perfil" element={<PerfilAluno />} />
+          <Route path="/faq" element={<FAQ />} />
+
+          <Route path="/curso/:id" element={<CursoDetalhe />} />
+          <Route path="/quiz/:id" element={<QuizPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Layout>
+    </Router>
+  );
 }
 
-export default App
+export default App;
